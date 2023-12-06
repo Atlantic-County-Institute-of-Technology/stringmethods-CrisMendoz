@@ -15,11 +15,12 @@ public class Main {
             }
         }
 
-        Scanner Name = new Scanner(System.in);
-        System.out.println("Enter your Name: ");
+        Scanner myName = new Scanner(System.in);
+        System.out.println("Enter your name: ");
 
+        String name = myName.next();
 
-
+        System.out.print(name);
 
         //char letter = 'a';
         //int number = 67;
